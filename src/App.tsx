@@ -7,8 +7,8 @@ import Payslips from "./pages/payslips/Payslips";
 import Reports from "./pages/reports/Reports";
 import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
-import "./App.css";
 import Nopage from "./pages/nopage/Nopage";
+import Menu from "./components/menu/Menu";
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   "pdfjs-dist/build/pdf.worker.min.js",
@@ -20,7 +20,9 @@ function App() {
     return (
       <div className="main">
         <div className="container">
-          <div className="menuContainer">menu</div>
+          <div className="menuContainer">
+            <Menu />
+          </div>
           <div className="contentContainer">
             <Outlet />
           </div>

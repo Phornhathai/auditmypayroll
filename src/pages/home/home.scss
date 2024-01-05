@@ -1,3 +1,72 @@
+@import "../../style/global.scss";
+
 .home {
-  background-color: blueviolet;
+  width: calc(100vw - 300px);
+  height: 100vh;
+  background-color: var(--Dark-Navy);
+  color: var(--Pink--Text);
+  background-image: url(../../../public/AuditMyPayroll-patternbg-pattern.svg);
+  background-repeat: repeat-y;
+  background-position: right top;
+  display: flex;
+
+  .Info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .userInfo {
+    background-color: var(--Light-Indigo);
+    width: 500px;
+    height: max-content;
+    justify-content: flex-start;
+    background-color: aqua;
+    left: 10px;
+
+    button {
+      width: 100px;
+      height: 40px;
+      margin: 10px;
+      border-radius: 10px;
+      background-color: white;
+      cursor: pointer;
+    }
+  }
+
+  .detailInfo {
+    display: flex;
+    width: 1200px;
+    background-color: red;
+    height: 600px;
+
+    .leftInfo {
+      width: 490px;
+      height: 522px;
+      margin-right: 80px;
+
+      .cardTop {
+        background-color: var(--Light-Indigo);
+        border-radius: 24px;
+        width: 550px;
+        height: 260px;
+        margin: 22px;
+      }
+      .cardBottom {
+        margin: 22px;
+        background-color: var(--Light-Indigo);
+        border-radius: 24px;
+        width: 550px;
+        height: 260px;
+      }
+    }
+
+    .rightInfo {
+      background-color: var(--Light-Indigo);
+      width: 600px;
+      height: 544px;
+      padding: 10px;
+      margin: 22px;
+      border-radius: 24px;
+    }
+  }
 }
