@@ -78,7 +78,7 @@ const Menu = () => {
       <footer>
         <p>Logged in as: company name</p>
         <img src="./public/setting_icon.svg" alt="setting" className="icon" />
-        <button>dark theme</button>
+        <button className="bg-slate-50">theme</button>
       </footer>
     </div>
   );

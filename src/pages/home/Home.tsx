@@ -52,8 +52,6 @@ const Home = () => {
               key={index}
               src={src}
               title={`pdf-viewer-${index}`}
-              width={1440}
-              height={1024}
             ></iframe>
           ))}
         </div>
