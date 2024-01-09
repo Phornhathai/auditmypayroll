@@ -9,7 +9,6 @@ import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
 import Nopage from "./pages/nopage/Nopage";
 import Menu from "./components/menu/Menu";
-import Submenu from "./components/submenu/Submenu";
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   "pdfjs-dist/build/pdf.worker.min.js",
