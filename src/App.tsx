@@ -16,6 +16,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
 ).toString();
 
 function App() {
+  // arrow function
   const Layout = () => {
     return (
       <div className="main">
